@@ -4,8 +4,16 @@
   box-sizing: border-box;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 nav {
-  background: #222;
+  background-color: rgba(255, 255, 255, 0.12);
   padding: 15px;
 }
 
@@ -23,7 +31,9 @@ nav ul li {
 }
 
 nav ul li:hover {
-  color: #ff8906;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(34, 34, 231);
   text-decoration: underline;
 }
 
@@ -36,10 +46,11 @@ nav ul li:hover {
   }
 
   nav ul li:hover {
-    background-color: #ffff;
-    color: #ff8906;
-    border-radius: 5px;
-  }
+  padding: 5px 5px;
+  border-radius: 5px;
+  background-color: rgb(34, 34, 231);
+  text-decoration: underline;
+}
   
 }
 
@@ -51,10 +62,11 @@ nav ul li:hover {
   }
 
   nav ul li:hover {
-    background-color: #ffff;
-    color: #ff8906;
-    border-radius: 5px;
-  }
+  padding: 5px 5px;
+  border-radius: 5px;
+  background-color: rgb(34, 34, 231);
+  text-decoration: underline;
+}
   
 
 }
