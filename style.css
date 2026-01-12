@@ -4,22 +4,19 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, sans-serif;
+}
+
 header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 50px 50px;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 20px 50px; 
 }
 
-.logo{
-    margin-left: 30px;
-}
 .logo img {
-  height: 40px; 
-}
-
-nav {
-  background-color: rgba(255, 255, 255, 0.12);
+  height: 60px; 
 }
 
 nav ul {
@@ -32,9 +29,9 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: rgb(7, 7, 153);
-  display: inline-block;
+  font-weight: 700; 
   padding: 8px 0;
-  font-weight: 700px;
+  display: inline-block;
 }
 
 nav ul li.cta a {
@@ -43,3 +40,73 @@ nav ul li.cta a {
   border-radius: 5px;
   color: #000;
 }
+
+.hero-section {
+  background-image: url("img/rumah.jpg");
+  border-radius: 10px;
+  margin: 0 50px; 
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+}
+
+
+.hero-section .hero-content {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  padding-left: 20px;
+  color: white;
+  font-weight: bold;
+  gap: 50px;
+}
+
+.hero-section .hero-content > h1{
+    font-size: 100px;
+}
+
+.cta-section {
+  display: flex; 
+  gap: 20px; 
+}
+
+.cta-section a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: rgb(241, 163, 16);
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.search-form {
+    display: flex; 
+    gap: 10px; 
+    align-items: center; 
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.search-form input,
+.search-form select,
+.search-form button {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-grow: 1; 
+    font-size: 16px;
+}
+
+.search-form button {
+    background-color: #ff8c00; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    flex-grow: 0; 
+}
+
+
