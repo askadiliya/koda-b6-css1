@@ -34,6 +34,13 @@ nav ul li:hover {
     display: block;
     border-bottom: 1px solid #444;
   }
+
+  nav ul li:hover {
+    background-color: #ffff;
+    color: #ff8906;
+    border-radius: 5px;
+  }
+  
 }
 
 
@@ -42,4 +49,12 @@ nav ul li:hover {
     display: inline-block;
     border-bottom: none;
   }
+
+  nav ul li:hover {
+    background-color: #ffff;
+    color: #ff8906;
+    border-radius: 5px;
+  }
+  
+
 }
